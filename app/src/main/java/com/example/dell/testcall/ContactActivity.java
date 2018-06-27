@@ -123,11 +123,6 @@ public class ContactActivity extends Activity implements View.OnClickListener, I
      */
     private void addLogMessage(String strMsg){
         Log.i("-----call----------",strMsg);
-//        String msg = tvMsg.getText().toString();
-//        SimpleDateFormat formatter = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-//        Date curDate = new Date(System.currentTimeMillis());//获取当前时间
-//        msg = msg + "\r\n["+formatter.format(curDate)+"] " + strMsg;
-//        tvMsg.setText(msg);
     }
 
     /**
